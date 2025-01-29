@@ -3,6 +3,7 @@ id: 1738147006-OJEO
 aliases:
   - Hidden Layer
 tags:
+  - DL
 ---
 
 # **Hidden Layer**

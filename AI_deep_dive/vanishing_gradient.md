@@ -2,7 +2,8 @@
 id: 1738159475-TWPO
 aliases:
   - Vanishing Gradient
-tags: []
+tags:
+  - vanishing gradient
 ---
 
 # Q. What is Vanishing Gradient?

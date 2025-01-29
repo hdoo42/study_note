@@ -2,7 +2,8 @@
 id: 1738162050-PHWD
 aliases:
   - Explanation with examples about why linear transformation is not enough
-tags: []
+tags:
+  - linear transformation
 ---
 
 # Explanation with examples about why linear transformation is not enough

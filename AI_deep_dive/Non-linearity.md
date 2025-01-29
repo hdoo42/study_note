@@ -1,7 +1,9 @@
 ---
 id: Non-linearity
 aliases: []
-tags: []
+tags:
+  - Math
+  - Graph
 ---
 
 렐루(ReLU), 시그모이드(Sigmoid), 탄젠트H(Tanh) 같은 함수들이 **비선형 활성화 함수**인 이유는, 이 함수들이 입력값과 출력값의 관계에서 **비선형성(Non-linearity)** 을 가지기 때문이야.

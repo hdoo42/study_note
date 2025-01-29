@@ -2,7 +2,8 @@
 id: 1738164891-GCEZ
 aliases:
   - norm
-tags: []
+tags:
+  - norm
 ---
 
 # norm

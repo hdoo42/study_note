@@ -2,7 +2,8 @@
 id: 1738163291-NXPU
 aliases:
   - Regularization
-tags: []
+tags:
+  - Regularization
 ---
 
 # Regularization

@@ -2,7 +2,8 @@
 id: 1738157673-VSMS
 aliases:
   - ReLU (Rectified Linear Unit)
-tags: []
+tags:
+  - ReLU (Rectified Linear Unit)
 ---
 
 # Q. What is ReLU (Rectified Linear Unit)?

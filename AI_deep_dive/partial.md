@@ -2,7 +2,8 @@
 id: 1738159745-KFPP
 aliases:
   - Partial
-tags: []
+tags:
+  - partial
 ---
 
 # What is Partial?

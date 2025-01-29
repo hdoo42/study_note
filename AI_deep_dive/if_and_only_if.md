@@ -2,7 +2,8 @@
 id: 1738165076-STDZ
 aliases:
   - ↔
-tags: []
+tags:
+  - if and only if
 ---
 
 # $\leftrightarrow$

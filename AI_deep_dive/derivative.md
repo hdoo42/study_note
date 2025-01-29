@@ -2,7 +2,8 @@
 id: 1738159355-DIUJ
 aliases:
   - derivative
-tags: []
+tags:
+  - derivative
 ---
 
 # derivative
