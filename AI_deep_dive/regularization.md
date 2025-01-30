@@ -1,5 +1,5 @@
 ---
-id: 1738163291-NXPU
+id: regularization
 aliases:
   - Regularization
 tags:

@@ -1,5 +1,5 @@
 ---
-id: 1738157673-VSMS
+id: ReLU
 aliases:
   - ReLU (Rectified Linear Unit)
 tags:
@@ -24,9 +24,9 @@ ReLU는 여러 가지 중요한 수학적 특성을 가진다.
 
 ### **1.1 비선형성 (Non-linearity)**
 ReLU는 비선형 함수이며, 신경망에서 비선형성을 부여하여 심층 학습(deep learning)이 가능하게 한다. 단순한 선형 변환만 사용하면 신경망의 깊이가 아무리 깊어도 *단일 선형 변환과 다를 바 없기 때문에, 비선형 활성화 함수가 필수적이다.
-* [[1738162050-PHWD|Explanation with examples]]
+* [[xor_nn_example|Explanation with examples]]
 
-### **1.2 희소성 ([[1738162610-ZGDT|Sparsity]])**
+### **1.2 희소성 ([[sparsity|Sparsity]])**
 ReLU는 음수 입력에 대해 0을 출력하므로, 일부 뉴런이 비활성화된다. 이는 뉴런의 희소성을 유도하여 모델의 계산 효율성을 높이고, 과적합(overfitting)을 방지하는 역할을 할 수 있다.
 
 ### **1.3 기울기 소실 문제(Vanishing Gradient Problem) 완화**

@@ -1,5 +1,5 @@
 ---
-id: 1738159475-TWPO
+id: Vanishing_Gradient
 aliases:
   - Vanishing Gradient
 tags:
@@ -23,7 +23,7 @@ $$
 \frac{\partial L}{\partial W_i} = \frac{\partial L}{\partial a_n} \cdot \frac{\partial a_n}{\partial a_{n-1}} \cdot \dots \cdot \frac{\partial a_2}{\partial a_1} \cdot \frac{\partial a_1}{\partial W_i}
 $$
 
-* [[1738159745-KFPP|Partial]](편미분)
+* [[partial|Partial]](편미분)
 - 여기서 **각 층의 활성화 함수의 도함수(기울기)가 곱해지면서 전파**됨.
 - 만약 활성화 함수의 **도함수가 1보다 작으면** 계속 곱해질수록 **점점 작아짐**.
 - 깊은 신경망에서는 결국 **기울기가 0에 가까워져서 가중치 업데이트가 거의 일어나지 않음**.

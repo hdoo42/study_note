@@ -1,5 +1,5 @@
 ---
-id: 1738147174-YSNO
+id: hidden_neouron
 aliases:
   - Hidden Neouron
 tags:

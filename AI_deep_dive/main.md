@@ -22,7 +22,7 @@ This principle is particularly relevant in **machine learning, heuristic search,
 ### Key Aspects of Inductive Bias:
 1. **Assumptions about the hypothesis space**: The learner assumes a certain structure in the data, like linear separability in linear regression.
 2. **Regularization**: Techniques like L1/L2 regularization in machine learning impose constraints to prevent overfitting.
-3. **Prior Knowledge**: Human-designed biases, such as convolutional neural networks (CNNs) assuming spatial locality in images.
+3. **Prior Knowledge**: Human-designed biases, such as [[CNN|convolutional neural networks]] (CNNs) assuming spatial locality in images.
 4. **Bias-Variance Tradeoff**: A strong bias reduces the search space but may oversimplify the problem (high bias, low variance), while weak bias allows flexibility but risks overfitting (low bias, high variance).
 
 In essence, **inductive bias is what allows a model to generalize, but it also limits what it can learn**. The choice of bias determines how well a model can perform on different types of tasks.
@@ -108,8 +108,8 @@ In essence, **inductive bias is what allows a model to generalize, but it also l
 ### **신경망 관련 용어**  
 - 신경망 → **Neural Network**  
 - 뉴런 → **Neuron**  
-- 은닉층 → **[[1738147006-OJEO|Hidden Layer]]**  
-- 은닉뉴런 → **[[1738147174-YSNO|Hidden Neouron]]**  
+- 은닉층 → **[[hidden_layer|Hidden Layer]]**  
+- 은닉뉴런 → **[[hidden_neouron|Hidden Neouron]]**  
 - 가중치 → **Weight**  
 - 편향 → **Bias**  
 - 활성화 함수 → **Activation Function**  

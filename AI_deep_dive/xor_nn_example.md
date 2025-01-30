@@ -1,5 +1,5 @@
 ---
-id: 1738147756-FFXP
+id: xor_nn_example
 aliases:
   - XOR implement with neural network
 tags:
@@ -25,7 +25,7 @@ XOR(Exclusive OR)은 아래처럼 작동하는 논리 연산입니다.
 | 1       | 1       | 0              |
 
 - **XOR의 특징**: 선형 분리가 불가능함 → 선형 모델(퍼셉트론 1개)로 해결할 수 없음.
-- **해결법**: **은닉 뉴런을 추가하여 다층 신경망(MLP, Multi-Layer Perceptron)을 구성**하면 해결 가능!
+- **해결법**: **은닉 뉴런을 추가하여 다층 신경망([[MLP|MLP]], Multi-Layer Perceptron)을 구성**하면 해결 가능!
 
 ---
 
@@ -54,7 +54,7 @@ $$
 h_2 = \sigma(w_{21} x_1 + w_{22} x_2 + b_2)
 $$
 
-(여기서 $\sigma$는 시그모이드 함수 또는 [[1738157673-VSMS|ReLU]] 같은 활성화 함수)
+(여기서 $\sigma$는 시그모이드([[sigmoid|sigmoid]]) 함수 또는 [[ReLU|ReLU]] 같은 활성화 함수)
 
 #### **2) 출력층 (Output Layer)**
 출력 뉴런의 출력:
@@ -88,7 +88,7 @@ $$
 w_{o1} = 1, \quad w_{o2} = 1, \quad b_o = -0.5
 $$
 
-활성화 함수는 [[1738156416-HZIT|**시그모이드(𝜎)**]] 를 사용한다고 가정.
+활성화 함수는 [[sigmoid|**시그모이드(𝜎)**]] 를 사용한다고 가정.
 
 $$
 \sigma(x) = \frac{1}{1 + e^{-x}}

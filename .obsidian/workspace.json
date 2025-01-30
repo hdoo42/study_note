@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8bc40c5b08f0fd6f",
+        "id": "ebeb73710a32c873",
         "type": "tabs",
         "children": [
           {
-            "id": "2a7ac2ba34980c4f",
+            "id": "8ff13235a7d75fc4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI_deep_dive/main.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "main"
+              "title": "새 탭"
             }
           }
         ]
@@ -43,7 +39,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -60,7 +56,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
@@ -102,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "백링크"
             }
           },
           {
@@ -115,7 +111,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "나가는 링크"
             }
           },
           {
@@ -138,7 +134,21 @@
               "type": "outline",
               "state": {},
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "개요"
+            }
+          },
+          {
+            "id": "59a3d6e0a88d3ebc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -150,42 +160,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2a7ac2ba34980c4f",
+  "active": "8ff13235a7d75fc4",
   "lastOpenFiles": [
-    "AI_deep_dive/triangle_inequality.md",
-    "AI_deep_dive/Loss_Function.md",
-    "AI_deep_dive/Overfitting.md",
+    "AI_deep_dive/main.md",
+    "AI_deep_dive/phi.md",
+    "AI_deep_dive/1738204436-BCWU.md",
+    "AI_deep_dive/Phase.md",
+    "AI_deep_dive/1738204133-RNDN.md",
+    "AI_deep_dive/one_D_continuous_signal.md",
+    "AI_deep_dive/1738203960-WKSE.md",
+    "AI_deep_dive/convolution.md",
+    "AI_deep_dive/1738203534-DEIJ.md",
+    "AI_deep_dive/CNN.md",
+    "AI_deep_dive/1738202348-ABOI.md",
+    "AI_deep_dive/partial.md",
+    "AI_deep_dive/Vanishing_Gradient.md",
+    "AI_deep_dive/derivative.md",
+    "sparsity.md",
+    "AI_deep_dive/xor_nn_example.md",
+    "AI_deep_dive/sigmoid.md",
+    "AI_deep_dive/ReLU.md",
+    "AI_deep_dive/XOR_example.md",
+    "AI_deep_dive/if_and_only_if.md",
+    "AI_deep_dive/hidden_neouron.md",
+    "AI_deep_dive/homogeneity.md",
     "AI_deep_dive/Interpretability.md",
     "AI_deep_dive/Lasso_Regression.md",
-    "AI_deep_dive/1738197190-KIRU.md",
     "AI_deep_dive/linear_regression.md",
-    "AI_deep_dive/weight_decay.md",
-    "AI_deep_dive/homogeneity.md",
-    "AI_deep_dive/norm.md",
-    "AI_deep_dive/if_and_only_if.md",
-    "1738165076-STDZ.md",
-    "AI_deep_dive/main.md",
-    "1738147006-OJEO.md",
-    "1738147756-FFXP.md",
-    "AI_deep_dive/ReLU.md",
-    "AI_deep_dive/why_linear_transformation_is_not_enough.md",
-    "AI_deep_dive/XOR_example.md",
-    "AI_deep_dive/hidden_layer.md",
-    "AI_deep_dive/hidden_neouron.md",
-    "AI_deep_dive/sigmoid.md",
-    "AI_deep_dive/sparsity.md",
-    "AI_deep_dive/regularization.md",
-    "AI_deep_dive/derivative.md",
-    "AI_deep_dive/chapter_one.md",
-    "AI_deep_dive/1738165076-STDZ.md",
+    "AI_deep_dive/Loss_Function.md",
     "assets/imgs/sigmoid.png",
     "AI_deep_dive/derivative",
     "assets/imgs/temp.png",

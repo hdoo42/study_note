@@ -1,5 +1,5 @@
 ---
-id: 1738159745-KFPP
+id: partial
 aliases:
   - Partial
 tags:
