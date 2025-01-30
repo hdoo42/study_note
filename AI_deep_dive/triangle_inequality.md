@@ -3,7 +3,8 @@ id: 1738165274-DSUG
 aliases:
   - Triangle Inequality
 tags:
-  - Triangle Inequality
+  - math
+  - geometry
 ---
 
 # Triangle Inequality

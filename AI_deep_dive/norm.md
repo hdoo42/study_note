@@ -1,9 +1,7 @@
 ---
-id: 1738164891-GCEZ
-aliases:
-  - norm
-tags:
-  - norm
+id: norm
+aliases: []
+tags: []
 ---
 
 # norm
@@ -18,10 +16,10 @@ tags:
 
 1. **양의 정의(Positivity)**:  
    $\|\mathbf{x}\| \ge 0$이며, $\|\mathbf{x}\| = 0$ $\Leftrightarrow$ $\mathbf{x} = \mathbf{0}$.
-   * [[1738165076-STDZ|↔]] 에 대하여
-2. **균등 확대([[1738165270-RKWF|Homogeneity]], 절댓값에 대한 양의 동차성)**:  
+   * [[if_and_only_if|↔]] 에 대하여
+2. **균등 확대([[homogeneity|Homogeneity]], 절댓값에 대한 양의 동차성)**:  
    모든 스칼라 $\alpha \in \mathbb{R}$에 대해, $\|\alpha \mathbf{x}\| = |\alpha| \|\mathbf{x}\|$.
-3. **삼각 부등식([[1738165274-DSUG|Triangle Inequality]])**:  
+3. **삼각 부등식([[triangle_inequality|Triangle Inequality]])**:  
    $\|\mathbf{x} + \mathbf{y}\| \le \|\mathbf{x}\| + \|\mathbf{y}\|$.
 
 ### 예시: $p$-노름

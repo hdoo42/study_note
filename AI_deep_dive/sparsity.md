@@ -3,7 +3,8 @@ id: 1738162610-ZGDT
 aliases:
   - Sparsity
 tags:
-  - Sparsity
+  - ml
+  - regularization
 ---
 
 # Sparsity

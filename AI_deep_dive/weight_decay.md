@@ -1,9 +1,11 @@
 ---
-id: 1738164604-GGDB
+id: weight_decay
 aliases:
   - Weight Decay
 tags:
-  - Weight Decay
+  - ml
+  - dl
+  - regularization
 ---
 
 # Weight Decay

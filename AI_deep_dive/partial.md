@@ -3,7 +3,8 @@ id: 1738159745-KFPP
 aliases:
   - Partial
 tags:
-  - partial
+  - math
+  - calculus
 ---
 
 # What is Partial?

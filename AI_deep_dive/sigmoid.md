@@ -3,7 +3,8 @@ id: 1738156416-HZIT
 aliases:
   - 시그모이드(𝜎)
 tags:
-  - sigmoid
+  - dl
+  - activation
 ---
 
 # **시그모이드(𝜎)**

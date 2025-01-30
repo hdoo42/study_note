@@ -3,7 +3,7 @@ id: 1738147174-YSNO
 aliases:
   - Hidden Neouron
 tags:
-  - ML
+  - dl
 ---
 
 # **Hidden Neouron**

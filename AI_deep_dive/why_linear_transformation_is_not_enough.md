@@ -1,9 +1,7 @@
 ---
-id: 1738162050-PHWD
-aliases:
-  - Explanation with examples about why linear transformation is not enough
-tags:
-  - linear transformation
+id: why_linear_transformation_is_not_enough
+aliases: []
+tags: []
 ---
 
 # Explanation with examples about why linear transformation is not enough

@@ -3,7 +3,8 @@ id: 1738159355-DIUJ
 aliases:
   - derivative
 tags:
-  - derivative
+  - math
+  - calculus
 ---
 
 # derivative

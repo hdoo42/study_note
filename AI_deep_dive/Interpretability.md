@@ -1,9 +1,9 @@
 ---
-id: 1738164378-NHCG
+id: Interpretability
 aliases:
   - Interpretability
 tags:
-  - Interpretability
+  - ml
 ---
 
 # Interpretability

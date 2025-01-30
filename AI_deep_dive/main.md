@@ -3,7 +3,6 @@ id: main
 aliases: []
 tags: []
 ---
-
 # 1.1 딥러닝 모델 학습이 잘 되는 이유
 ## Q. What is no free lunch in context of optimization?
 The **No Free Lunch (NFL) theorem** in optimization states that no single optimization algorithm is universally better than all others across all possible problems. This means that for any optimization algorithm, its performance is **problem-dependent**, and an algorithm that works well for one type of problem may perform poorly on another.
@@ -36,7 +35,7 @@ In essence, **inductive bias is what allows a model to generalize, but it also l
 신경망(특히 다층 퍼셉트론)은 *“범용 근사(Universal Approximation)”* 성질을 가진다고 알려져 있습니다. 이는 **충분히 많은 뉴런(은닉층 노드)과 적절한 활성화 함수**가 있다면, 임의의 연속 함수(예: 다항식, 지수함수 등)를 원하는 정밀도로 근사할 수 있다는 이론적 결과입니다.
 
 - **다항식**은 $x^2, x^3, x^7 + 3x^5 - 2x + 1$ 같은 식의 유한항 다항 표현입니다.
-- 신경망은 **가중치(Weight)**와 **편향(Bias)**를 조정해 가며, 활성화 함수를 통해 *“비선형 변환”* 을 쌓습니다.
+- 신경망은 **가중치(Weight)** 와 **편향(Bias)** 를 조정해 가며, 활성화 함수를 통해 *“비선형 변환”* 을 쌓습니다.
 - 이때, 다항식 정도의 함수를 근사하는 데에는 매우 복잡한 구조가 요구되지 않습니다. 비교적 “작은” 신경망이라도, 가중치와 편향을 잘 학습하면 **낮은 차수의 다항식**을 충분히 잘 흉내낼 수 있게 됩니다.
 
 정리하면, **낮은 차수의 다항식은 형태가 단순하기 때문에** 일반적인 범용 근사 능력을 갖춘 신경망으로 비교적 쉽게(은닉층 노드 수가 많지 않아도) 근사할 수 있다는 뜻입니다.
@@ -46,7 +45,7 @@ In essence, **inductive bias is what allows a model to generalize, but it also l
 ## 2. 곱셈 연산의 신경망 표현
 
 ### 2.1 “곱셈 한 번”을 뉴런 4개로 근사한다?
-두 입력 $x$와 $y$가 있을 때, 이 둘의 **곱$x \times y$**을 계산하는 함수를 “아주 작은 신경망”으로 근사할 수 있다는 데에는 다음과 같은 원리가 작동합니다.
+두 입력 $x$와 $y$가 있을 때, 이 둘의 **곱$x \times y$** 을 계산하는 함수를 “아주 작은 신경망”으로 근사할 수 있다는 데에는 다음과 같은 원리가 작동합니다.
 
 1. **신경망의 기본 연산**  
    - 각 뉴런은 (1) 여러 입력을 받아서 **가중합(Weighted Sum)** 을 구하고, (2) 활성화 함수를 통과시킵니다.  
@@ -100,7 +99,7 @@ In essence, **inductive bias is what allows a model to generalize, but it also l
 
 라는 점을 대학생 수준에서 수긍할 수 있게 됩니다.
 
-[[1738147756-FFXP| XOR implement with neural network]]
+[[XOR_example|XOR implement with neural network]]
 
 ---
 

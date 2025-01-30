@@ -1,9 +1,9 @@
 ---
-id: 1738163672-NEWD
+id: Overfitting
 aliases:
   - Overfitting
 tags:
-  - Overfitting
+  - ml
 ---
 
 # Overfitting

@@ -3,7 +3,7 @@ id: 1738147756-FFXP
 aliases:
   - XOR implement with neural network
 tags:
-  - neural network
+  - dl
 ---
 
 # XOR implement with neural network

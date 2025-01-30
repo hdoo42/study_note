@@ -1,9 +1,10 @@
 ---
-id: 1738164567-GLSS
+id: linear_regression
 aliases:
   - Linear Regression
 tags:
-  - Linear Regression
+  - ml
+  - regression
 ---
 
 # Linear Regression

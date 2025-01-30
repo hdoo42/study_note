@@ -1,9 +1,9 @@
 ---
-id: 1738163523-ASQU
+id: Loss_Function
 aliases:
   - Loss function
 tags:
-  - Loss Function
+  - ml
 ---
 
 # Loss function

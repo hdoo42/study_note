@@ -3,7 +3,8 @@ id: 1738159475-TWPO
 aliases:
   - Vanishing Gradient
 tags:
-  - vanishing gradient
+  - dl
+  - traning_dynamics
 ---
 
 # Q. What is Vanishing Gradient?

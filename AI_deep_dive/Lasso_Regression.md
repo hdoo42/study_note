@@ -1,9 +1,11 @@
 ---
-id: 1738164533-PXMZ
+id: Lasso_Regression
 aliases:
   - Lasso Regression
 tags:
-  - Lasso Regression
+  - regularization
+  - regression
+  - ml
 ---
 
 # Lasso Regression

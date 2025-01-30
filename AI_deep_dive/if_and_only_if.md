@@ -3,7 +3,8 @@ id: 1738165076-STDZ
 aliases:
   - ↔
 tags:
-  - if and only if
+  - math
+  - notation
 ---
 
 # $\leftrightarrow$
