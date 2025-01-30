@@ -2,7 +2,9 @@
 id: Phase
 aliases:
   - Phase
-tags: []
+tags:
+  - Phase
+  - signal_representation
 ---
 
 # Phase
@@ -15,7 +17,7 @@ $$
 
 여기서:  
 - $A$ : 진폭(Amplitude)  
-- $\omega$ : 각주파수(Angular frequency, $\omega = 2\pi f$)  
+- $\omega$ : 각주파수([[angular_frequency|Angular frequency]], $\omega = 2\pi f$)  
 - $t$ : 시간(Time)  
 - $\phi$ : **위상(Phase)**  
 

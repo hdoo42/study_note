@@ -2,7 +2,9 @@
 id: CNN
 aliases:
   - convolutional neural networks
-tags: []
+tags:
+  - dl
+  - nn_architecture
 ---
 
 # convolutional neural networks

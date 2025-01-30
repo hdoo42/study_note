@@ -4,6 +4,7 @@ aliases:
   - Hidden Neouron
 tags:
   - dl
+  - nn_architecture
 ---
 
 # **Hidden Neouron**

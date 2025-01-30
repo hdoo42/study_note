@@ -1,8 +1,9 @@
 ---
 id: MLP
-aliases:
-  - Multi-Layer Perceptron
-tags: []
+aliases: []
+tags:
+  - dl
+  - nn_architecture
 ---
 
 # MLP

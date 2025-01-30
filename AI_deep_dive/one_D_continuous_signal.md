@@ -2,7 +2,8 @@
 id: one_D_continuous_signal
 aliases:
   - 1D Continuous Signal
-tags: []
+tags:
+  - signal_representation
 ---
 
 # 1D Continuous Signal
