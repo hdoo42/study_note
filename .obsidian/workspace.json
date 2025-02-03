@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ebeb73710a32c873",
+        "id": "3ec9f19ea899e5c3",
         "type": "tabs",
         "children": [
           {
-            "id": "8ff13235a7d75fc4",
+            "id": "74dfb09164aeffa0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Math for CS/Secant Line.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "Secant Line"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -48,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#math",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "839a0848c8c07c68",
@@ -160,47 +166,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8ff13235a7d75fc4",
+  "active": "74dfb09164aeffa0",
   "lastOpenFiles": [
-    "AI_deep_dive/main.md",
-    "AI_deep_dive/phi.md",
-    "AI_deep_dive/1738204436-BCWU.md",
-    "AI_deep_dive/Phase.md",
-    "AI_deep_dive/1738204133-RNDN.md",
-    "AI_deep_dive/one_D_continuous_signal.md",
-    "AI_deep_dive/1738203960-WKSE.md",
-    "AI_deep_dive/convolution.md",
-    "AI_deep_dive/1738203534-DEIJ.md",
-    "AI_deep_dive/CNN.md",
-    "AI_deep_dive/1738202348-ABOI.md",
+    "basel_problem.md",
+    "무제.md",
+    "Math for CS/Secant Line.md",
+    "Math for CS/Lecture 1.md",
+    "assets/pdfs/10290.pdf",
+    "assets/pdfs/18.01/mvt_Mean-value theorem.pdf",
+    "assets/pdfs/18.01/x_expnentl_lgrthm.pdf",
+    "assets/pdfs/18.01/pi_pr_dfntintgrl.pdf",
+    "assets/pdfs/18.01/ft_scn_fnd_thorm.pdf",
+    "assets/pdfs/18.01/c_cntnt_dscntnt.pdf",
+    "assets/pdfs/18.01/f_hscvr_up_methd.pdf",
+    "assets/pdfs/18.01/g_graphng_fnctns.pdf",
+    "assets/pdfs/18.01/xxpnentl_lgrthm.pdf",
+    "assets/pdfs/18.01/av_average_value.pdf",
+    "Math for CS/adjacent_side.md",
+    "assets/imgs/adjacent_line.png",
+    "Math for CS/Tangent Line.md",
+    "Math for CS/1738478140-GDPC.md",
+    "assets/imgs/unit_circle_with_tangent_secant_line.png",
+    "Math for CS/1738476281-KTEV.md",
+    "Math for CS/secant line.md",
+    "Math for CS/1738475170-VCGI.md",
+    "Math for CS/Welcome.md",
+    "Foundtions of Machine Learning/main.md",
+    "Foundtions of Machine Learning/Welcome.md",
     "AI_deep_dive/partial.md",
-    "AI_deep_dive/Vanishing_Gradient.md",
-    "AI_deep_dive/derivative.md",
-    "sparsity.md",
-    "AI_deep_dive/xor_nn_example.md",
-    "AI_deep_dive/sigmoid.md",
-    "AI_deep_dive/ReLU.md",
-    "AI_deep_dive/XOR_example.md",
-    "AI_deep_dive/if_and_only_if.md",
-    "AI_deep_dive/hidden_neouron.md",
-    "AI_deep_dive/homogeneity.md",
-    "AI_deep_dive/Interpretability.md",
-    "AI_deep_dive/Lasso_Regression.md",
-    "AI_deep_dive/linear_regression.md",
-    "AI_deep_dive/Loss_Function.md",
+    "AI_deep_dive/Natural_logarithm.md",
+    "AI_deep_dive/convolution.md",
+    "AI_deep_dive/tau.md",
+    "AI_deep_dive/Cross_Product.md",
+    "AI_deep_dive/metric_space.md",
+    "AI_deep_dive/triangle_inequality.md",
+    "AI_deep_dive/1738245644-NAXR.md",
+    "AI_deep_dive/differentiation.md",
+    "AI_deep_dive/Softmax.md",
+    "AI_deep_dive/main.md",
+    "AI_deep_dive/angular_frequency.md",
+    "AI_deep_dive/attention_mechanism.md",
     "assets/imgs/sigmoid.png",
-    "AI_deep_dive/derivative",
-    "assets/imgs/temp.png",
-    "assets/imgs",
-    "assets",
-    "AI_deep_dive/graph.py"
+    "assets/imgs/temp.png"
   ]
 }
