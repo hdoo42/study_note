@@ -17,7 +17,7 @@ $$
 
 여기서:  
 - $A$ : 진폭(Amplitude)  
-- $\omega$ : 각주파수([[angular_frequency|Angular frequency]], $\omega = 2\pi f$)  
+- $\omega$ : 각주파수([[angular_frequency 1|Angular frequency]], $\omega = 2\pi f$)  
 - $t$ : 시간(Time)  
 - $\phi$ : **위상(Phase)**  
 
@@ -32,7 +32,7 @@ $$
 
 ---
 
-### Q.3. **[[phi|$\phi$]] 기호는 항상 Phase를 의미해?**  
+### Q.3. **[[phi 1|$\phi$]] 기호는 항상 Phase를 의미해?**  
 아니, $\phi$는 항상 Phase를 의미하는 건 아니야.  
 - 기하학에서는 **각도(Angle)** 를 나타낼 때도 쓰고,  
 - 물리학에서는 **전기 포텐셜**을 나타낼 때도 쓰고,  

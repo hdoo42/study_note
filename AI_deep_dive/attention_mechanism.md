@@ -9,7 +9,7 @@ tags: []
 Attention 메커니즘은 시퀀스 데이터에서 중요한 부분에 가중치를 부여하여 모델이 보다 효과적으로 학습할 수 있도록 하는 기법이다. 이는 특히 자연어 처리(NLP) 및 시계열 데이터 분석에서 필수적인 역할을 한다.
 
 ## 1. **배경 및 필요성**
-기존의 RNN, LSTM, GRU 기반 모델들은 입력 시퀀스를 순차적으로 처리하기 때문에 긴 시퀀스를 다룰 때 **장기 의존성([[long-term_dependency|long-term_dependency]])** 문제를 겪는다. 이를 해결하기 위해 등장한 **Attention** 메커니즘은 전체 입력을 한 번에 고려하면서 특정 부분에 더 집중하는 방식으로, 중요한 정보를 효과적으로 선택할 수 있도록 한다.
+기존의 RNN, LSTM, GRU 기반 모델들은 입력 시퀀스를 순차적으로 처리하기 때문에 긴 시퀀스를 다룰 때 **장기 의존성([[long-term_dependency 1|long-term_dependency]])** 문제를 겪는다. 이를 해결하기 위해 등장한 **Attention** 메커니즘은 전체 입력을 한 번에 고려하면서 특정 부분에 더 집중하는 방식으로, 중요한 정보를 효과적으로 선택할 수 있도록 한다.
 
 ## 2. **Attention의 기본 원리**
 Attention은 기본적으로 다음과 같은 수식으로 정의된다.
@@ -24,10 +24,10 @@ $$
 - $V$ (Value): 최종적으로 출력할 값  
 - $d_k$: Key 벡터의 차원 (스케일링을 위해 사용)  
 
-Query와 Key의 내적([[dot_product|dot product]])을 통해 중요도를 측정한 후, [[Softmax|Softmax]]를 적용하여 확률 분포를 만든다. 이 확률을 Value에 곱하여 최종적으로 가중합(weighted sum)을 구하면 특정 위치의 정보를 강화하여 사용할 수 있다.
+Query와 Key의 내적([[dot_product 1|dot product]])을 통해 중요도를 측정한 후, [[Softmax 1|Softmax]]를 적용하여 확률 분포를 만든다. 이 확률을 Value에 곱하여 최종적으로 가중합(weighted sum)을 구하면 특정 위치의 정보를 강화하여 사용할 수 있다.
 
 ## 3. **Self-Attention**
-Self-Attention은 하나의 시퀀스 내에서 서로 다른 위치의 단어들이 서로 얼마나 관련이 있는지를 학습하는 방식이다. 이는 트랜스포머([[Transformer|Transformer]]) 모델의 핵심적인 요소로 사용된다.
+Self-Attention은 하나의 시퀀스 내에서 서로 다른 위치의 단어들이 서로 얼마나 관련이 있는지를 학습하는 방식이다. 이는 트랜스포머([[Transformer 1|Transformer]]) 모델의 핵심적인 요소로 사용된다.
 
 $$
 \text{Self-Attention}(X) = \text{softmax} \left( \frac{XW_Q (XW_K)^T}{\sqrt{d_k}} \right) XW_V

@@ -51,7 +51,7 @@ $$
 
   - $A$ : 진폭 (Amplitude)
   - $f$ : 주파수 (Frequency)
-  - $\phi$ : 위상 ([[Phase|Phase]])
+  - $\phi$ : 위상 ([[Phase 1|Phase]])
   - $t$ : 시간  
 
 이 신호는 **모든 시간 $t$ 에 대해 연속적인 값을 갖기 때문에 연속 신호**입니다.

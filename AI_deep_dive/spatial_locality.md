@@ -61,7 +61,7 @@ $$
 ### **추가적으로 생각해볼 점**
 1. **"컨볼루션의 공간적 지역성이 줄어들면 어떤 문제가 발생할까?"**  
    - 커널 크기가 너무 크거나, 네트워크가 너무 깊어지면 **공간적 지역성이 약화될 수 있음**.  
-   - 이를 해결하기 위해 **Strided convolution, Dilated convolution, [[attention_mechanism|Attention mechanism]]** 등을 적용함.
+   - 이를 해결하기 위해 **Strided convolution, Dilated convolution, [[attention_mechanism 1|Attention mechanism]]** 등을 적용함.
 
 2. **"Fully connected layer와 비교했을 때 Spatial locality가 컨볼루션에서 중요한 이유는?"**  
    - Fully connected layer는 입력의 모든 요소를 연결하는 반면, 컨볼루션은 **국소적인 정보만 사용하므로 메모리 사용량과 연산량이 크게 줄어듦**.

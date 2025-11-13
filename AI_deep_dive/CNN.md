@@ -17,7 +17,7 @@ Convolutional Neural Network(CNN)는 **이미지 처리 및 분석에 특화된 
 ## **1. CNN의 핵심 개념**
 CNN은 일반적인 다층 신경망(MLP, Multi-Layer Perceptron)과 다르게, **공간적 특징을 보존**하면서 학습하는 구조를 갖고 있습니다. 핵심 개념은 다음과 같습니다.
 
-### **1) 합성곱([[convolution|Convolution]]) 연산**
+### **1) 합성곱([[convolution 1|Convolution]]) 연산**
 - 이미지에서 **특징(feature)을 추출**하는 역할을 합니다.
 - 작은 필터(커널, Kernel)를 사용하여 이미지의 특정 패턴(엣지, 텍스처 등)을 감지합니다.
 - **예제:** 엣지를 감지하는 필터는 수직선, 수평선 등의 모양을 학습할 수 있습니다.

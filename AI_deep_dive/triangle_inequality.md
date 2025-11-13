@@ -12,7 +12,7 @@ tags:
 
 ---
 
-## 1. **기본 정의: 거리 공간([[metric_space|Metric Space]])에서의 삼각부등식**
+## 1. **기본 정의: 거리 공간([[metric_space 1|Metric Space]])에서의 삼각부등식**
 거리 공간 $(X, d)$이란 집합 $X$ 위에 정의된 함수 $d : X \times X \to \mathbb{R}$가 다음을 만족하는 경우를 말한다:
 1. (비음수성) $d(x, y) \ge 0$, 그리고 $d(x, y)=0 \iff x = y$.
 2. (대칭성) $d(x, y) = d(y, x)$.

@@ -16,7 +16,7 @@ tags:
   $$
   \frac{d}{dx} e^x = e^x.
   $$  
-- 이에 따라 역함수인 **자연로그** $\ln(x)$의 미분([[differentiation|differentiation]])도 매우 간단해진다.  
+- 이에 따라 역함수인 **자연로그** $\ln(x)$의 미분([[differentiation 1|differentiation]])도 매우 간단해진다.  
   $$
   \frac{d}{dx} \ln(x) = \frac{1}{x}.
   $$  

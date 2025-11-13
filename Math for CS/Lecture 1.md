@@ -11,7 +11,7 @@ tags:
 
 1. **기하학적 해석**   
    - 함수 $y=f(x)$의 그래프에서 한 점 $P$에서의 **접선** 을 생각합니다.  
-   - 접선의 기울기는 $P$와 $Q$라는 두 점을 잇는 **[[Secant Line|Secant line]]** (할선)의 기울기가 $Q$가 $P$에 가까워질 때의 극한값으로 정의됩니다.
+   - 접선의 기울기는 $P$와 $Q$라는 두 점을 잇는 **[[AI_deep_dive/Secant Line|Secant line]]** (할선)의 기울기가 $Q$가 $P$에 가까워질 때의 극한값으로 정의됩니다.
 
 2. **도함수의 정의와 극한 과정**  
    - 도함수는 다음과 같이 정의됩니다.  
@@ -20,7 +20,7 @@ f'(x_0)=\lim_{\Delta x\to0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}
 $$
    - 여기서 $\Delta x$는 $x$의 변화량, $\Delta f$ (또는 $\Delta y$)는 함수값의 변화량입니다.
 > [!Keyword]
-> [[Difference Quotient|Difference quotiont]]   
+> [[AI_deep_dive/Difference Quotient|Difference quotiont]]   
 
 3. **예제 1: $f(x)=\frac{1}{x}$ 의 미분**  
    - 함수 $f(x)=\frac{1}{x}$에 대해 위의 정의를 적용하여, 분수의 차이를 통분하고 $\Delta x$를 소거하는 과정을 통해  

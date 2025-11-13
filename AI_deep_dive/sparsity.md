@@ -50,8 +50,8 @@ tags:
 
 ### **4. 희소성을 더 강하게 유도하기 위한 기법들**
 
-1. **L1 정규화([[regularization|L1 Regularization]])**  
-   - 손실 함수에 L1 노름([[norm|norm]])($\|\mathbf{W}\|_1$) 항을 추가하여, 가중치가 0으로 수렴하도록 유도한다.  
+1. **L1 정규화([[regularization 1|L1 Regularization]])**  
+   - 손실 함수에 L1 노름([[norm 1|norm 1]])($\|\mathbf{W}\|_1$) 항을 추가하여, 가중치가 0으로 수렴하도록 유도한다.  
    - 가중치 행렬이 희소해지면, 결국 뉴런 출력값도 더욱 희소해질 수 있다.
 
 2. **스파스 코딩(Sparse Coding)**  
