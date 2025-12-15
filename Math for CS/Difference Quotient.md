@@ -5,7 +5,7 @@ aliases:
 tags: []
 ---
 
-# Difference quotiont
+# Difference quotient
 **Difference Quotient**는 미분의 기초 개념 중 하나로, 어떤 함수 $f(x)$의 변화율을 나타내는 식이다. 이를 통해 함수의 순간 변화율(즉, 도함수)을 구할 수 있다.
 
 차분 몫(difference quotient)의 정의는 다음과 같다:

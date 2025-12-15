@@ -49,6 +49,8 @@ $$
 
 ![unit_circle_with_tangent_secant_line.png](assets/imgs/unit_circle_with_tangent_secant_line.png)
 
+
+
 보통 사용되는 고전적인 구성은 다음과 같습니다.
 
 1. 원의 중심을 $O=(0,0)$으로 하고, 반지름이 1인 단위원을 그립니다.
