@@ -1,0 +1,21 @@
+[project]
+name = "gsdb-playground"
+version = "0.1.0"
+description = "Pandas / Numpy typing test with pyright"
+requires-python = ">=3.11"
+
+dependencies = [
+    "pandas>=2.3",
+    "numpy>=1.26",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+# uv 전용 설정 (optional)
+[tool.uv]
+dev-dependencies = [
+    "pyright",
+    "ruff",
+]

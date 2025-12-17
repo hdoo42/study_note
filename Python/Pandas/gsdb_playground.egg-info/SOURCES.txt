@@ -1,0 +1,7 @@
+main.py
+pyproject.toml
+gsdb_playground.egg-info/PKG-INFO
+gsdb_playground.egg-info/SOURCES.txt
+gsdb_playground.egg-info/dependency_links.txt
+gsdb_playground.egg-info/requires.txt
+gsdb_playground.egg-info/top_level.txt
