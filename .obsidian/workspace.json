@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "53a9fa32b35f219d",
+        "id": "c877d7c3c5cca07c",
         "type": "tabs",
         "children": [
           {
-            "id": "51cfc78237ced982",
+            "id": "6565c9d97715a2a4",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "새 탭"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -49,12 +49,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regression",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Math for AI/probability_statistics/policy_in_rl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "policy_in_rl 의 백링크"
             }
           },
           {
@@ -161,35 +162,39 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
     }
   },
-  "active": "51cfc78237ced982",
+  "active": "6565c9d97715a2a4",
   "lastOpenFiles": [
+    "temp/강연 1 AI 시대의 개발자는 뭘 해야할까?.md",
+    "temp",
+    "CS107e/course_reversing.md",
+    "CS107e",
     "assets/imgs/Pasted image 20251019155843.png",
     "Transcendence 변경점.md",
     "Python/matplotlib/분류/📝 IQR 공식 및 해설.md",
-    "Python/matplotlib/분류/📏 L1 노름 (맨해튼 노름).md",
-    "Python/matplotlib/분류/💡뉴럴 네트워크 초기 가중치 및 편향(세타) 설정.md",
     "Python/matplotlib/분류/🎯 불균형 데이터셋에서의 AI 성능 분석 (Analysis of AI Performance on Imbalanced Datasets).md",
+    "Python/matplotlib/분류/💡뉴럴 네트워크 초기 가중치 및 편향(세타) 설정.md",
+    "Python/matplotlib/분류/📏 L1 노름 (맨해튼 노름).md",
     "Python/matplotlib/분류/혼동 행렬(Confusion Matrix).md",
     "Python/matplotlib/분류/데이터 차원의 저주(Curse of Dimensionality).md",
     "Python/matplotlib/분류/데이터 스케일링 기법 4가지.md",
     "Python/matplotlib/분류/데이터 스케일링 (Data Scaling) 📏.md",
     "Python/matplotlib/분류/데이터 불균형(Class Imbalance).md",
-    "Python/matplotlib/분류/데이터 누수.md",
     "Python/matplotlib/분류/과적합.md",
+    "Python/matplotlib/분류/데이터 누수.md",
     "Python/matplotlib/분류/k-평균 클러스터링의 중심점 업데이트.md",
+    "Python/matplotlib/분류/Binarizer threshold.md",
     "Python/matplotlib/분류/One Hot Encoding.md",
     "Python/matplotlib/분류/MLPClassifier.md",
     "Python/matplotlib/분류/KNN과 K-Means Clustering.md",
-    "Python/matplotlib/분류/Binarizer threshold.md",
     "Python/matplotlib/분류/ADASYN.md",
     "Python/matplotlib/분류",
     "Python/matplotlib/uv.lock",
@@ -198,20 +203,14 @@
     "Python/matplotlib/plot 인수.md",
     "Python/matplotlib/main.py",
     "Python/matplotlib/README.md",
-    "Python/Pandas/uv.lock",
-    "Python/Pandas/pyproject.toml",
-    "Python/Pandas/playground.py",
-    "Python/Pandas/gsdb_playground.egg-info/top_level.txt",
+    "Python/matplotlib",
     "Python/Pandas/gsdb_playground.egg-info/requires.txt",
+    "Python/Pandas/gsdb_playground.egg-info/top_level.txt",
     "Python/Pandas/gsdb_playground.egg-info/dependency_links.txt",
     "Python/Pandas/Pivot_table, melt.md",
     "Python/Pandas/Pandas BlockManager & slice 구조 이해하기.md",
     "Python/Pandas/DataFrame_구조_이해.md",
-    "Python/Pandas/DataFrame 구조 이해.md",
-    "assets/imgs/sin_cos.png",
-    "assets/imgs/figure_1_40.png",
     "Pasted image 20251019155843.png",
-    "CS/What every programmer should know about memory/WEPSKAM/Pasted image 20251025230810.png",
     "assets/imgs/adjacent_line.png",
     "assets/imgs/unit_circle_with_tangent_secant_line.png",
     "assets/imgs/sigmoid.png",
