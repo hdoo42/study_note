@@ -1,3 +1,5 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "VictorMono Nerd Font Mono",
+  "monospaceFontFamily": "VictorMono Nerd Font Mono"
 }
