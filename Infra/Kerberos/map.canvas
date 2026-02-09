@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"9c68d17b7b91d705","type":"file","file":"KDC.md","x":-280,"y":-600,"width":400,"height":400},
+		{"id":"c444ff6c25b4f152","type":"file","file":"Principal.md","x":-280,"y":-1060,"width":400,"height":400},
+		{"id":"75d5b491b4eab151","type":"file","file":"TGT.md","x":-280,"y":-140,"width":400,"height":400},
+		{"id":"47b162a0833c85b8","type":"file","file":"Kerberos/Kerberos.md","x":-880,"y":-860,"width":400,"height":400},
+		{"id":"e2e891b03f3c0418","type":"file","file":"Kerberos/AS(Authentication Service).md","x":220,"y":-800,"width":400,"height":400},
+		{"id":"fd58df9f2a11a6b3","type":"text","text":"### ❓ 확인 퀴즈\n\n사용자가 AS로부터 받은 **TGT(Ticket Granting Ticket)** 는 사용자 자신의 마스터 키로 암호화되어 있나요, 아니면 TGS의 키로 암호화되어 있나요? 그리고 사용자는 이 TGT의 내용을 직접 읽어서 수정할 수 있을까요?","x":460,"y":-220,"width":519,"height":160},
+		{"id":"22a27b35daca92f2","type":"text","text":"","x":1080,"y":-398,"width":250,"height":151},
+		{"id":"aa3599f27a7f16ac","type":"text","text":"### ✍️ 역전 학습 (Reverse Teaching)\n\n위 설명을 바탕으로, **\"사용자가 AS로부터 받은 응답을 자신의 컴퓨터에서 복호화하는 과정\"**을 상세히 묘사해 보세요. (어떤 키를 사용하여 무엇을 얻어내는지 중심)\n","x":460,"y":-380,"width":519,"height":160},
+		{"id":"c2a58710a8cc1107","type":"text","text":"### ❓ 확인 퀴즈\n\n사용자가 AS로부터 받은 **TGT(Ticket Granting Ticket)** 는 사용자 자신의 마스터 키로 암호화되어 있나요, 아니면 TGS의 키로 암호화되어 있나요? 그리고 사용자는 이 TGT의 내용을 직접 읽어서 수정할 수 있을까요?","x":460,"y":-200,"width":519,"height":160},
+		{"id":"b19a1fb5da764abf","type":"file","file":"Kerberos/TGS(Ticket Granting Service).md","x":220,"y":-20,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"a9affa0dac57679a","fromNode":"47b162a0833c85b8","fromSide":"right","toNode":"9c68d17b7b91d705","toSide":"left"},
+		{"id":"e31777f3e4594b53","fromNode":"9c68d17b7b91d705","fromSide":"right","toNode":"e2e891b03f3c0418","toSide":"left"},
+		{"id":"bc2a532f9a29dfe9","fromNode":"9c68d17b7b91d705","fromSide":"right","toNode":"b19a1fb5da764abf","toSide":"left"},
+		{"id":"f6b351e2a7f33ca3","fromNode":"47b162a0833c85b8","fromSide":"right","toNode":"c444ff6c25b4f152","toSide":"left"},
+		{"id":"c96f0e0a6041d1f2","fromNode":"47b162a0833c85b8","fromSide":"right","toNode":"75d5b491b4eab151","toSide":"left"},
+		{"id":"157bab46753e6ce1","fromNode":"e2e891b03f3c0418","fromSide":"bottom","toNode":"fd58df9f2a11a6b3","toSide":"left"},
+		{"id":"f29c4eb777056d6b","fromNode":"e2e891b03f3c0418","fromSide":"bottom","toNode":"aa3599f27a7f16ac","toSide":"left"},
+		{"id":"45de493f1d252eca","fromNode":"aa3599f27a7f16ac","fromSide":"right","toNode":"22a27b35daca92f2","toSide":"left"}
+	]
+}

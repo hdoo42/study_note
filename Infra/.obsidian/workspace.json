@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "0a23a3f57b9e805d",
+    "id": "0982dfcc46ceedef",
     "type": "split",
     "children": [
       {
-        "id": "7fa7dd21fc749704",
+        "id": "48132020624cb6e6",
         "type": "tabs",
         "children": [
           {
-            "id": "5db6d37f0338ea28",
+            "id": "7e1fca00473f8a73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Infra/network/eBPF.md",
+                "file": "Kerberos/Kerberos.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eBPF"
+              "title": "Kerberos"
             }
           }
         ]
@@ -27,20 +27,20 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e4e0bd2618fc234b",
+    "id": "34159da74973102d",
     "type": "split",
     "children": [
       {
-        "id": "f5a8f07c0c5632e9",
+        "id": "0a553b91f5f539eb",
         "type": "tabs",
         "children": [
           {
-            "id": "29805cbadb416ae6",
+            "id": "79accfbc52f15d3e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "212889591bd75fda",
+            "id": "3e9bdd7b0347b1e0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "ce3ad85f821bc081",
+            "id": "e22a20fe386ad00b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "839a0848c8c07c68",
+    "id": "d97c862c61821986",
     "type": "split",
     "children": [
       {
-        "id": "9149f5c40e7c0d6d",
+        "id": "5100668406346c9e",
         "type": "tabs",
         "children": [
           {
-            "id": "89071077124eb9c8",
+            "id": "fb4b455ca5ab5783",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infra/network/ARP 과정.md",
+                "file": "Kerberos/Kerberos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ARP 과정"
+              "title": "Backlinks for Kerberos"
             }
           },
           {
-            "id": "7370c44c86ad05dd",
+            "id": "75c5a8ee4fb6fbb0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infra/network/ARP 과정.md",
+                "file": "Kerberos/Kerberos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ARP 과정"
+              "title": "Outgoing links from Kerberos"
             }
           },
           {
-            "id": "20a813776647c452",
+            "id": "2b067df683b05e79",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,22 +137,7 @@
             }
           },
           {
-            "id": "7a8a9edfa4a928d8",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Infra/network/ARP 과정.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of ARP 과정"
-            }
-          },
-          {
-            "id": "59a3d6e0a88d3ebc",
+            "id": "26910b139a5fc40d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -164,13 +149,28 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "747d86aabd6e7f42",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Kerberos/Kerberos.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Kerberos"
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,55 +180,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5db6d37f0338ea28",
+  "active": "7e1fca00473f8a73",
   "lastOpenFiles": [
-    "Math for CS/Secant Line.md",
-    "Math for CS/Lecture_18.md",
-    "Math for CS/Navier-Stokes Equation.md",
-    "Math for CS/Lecture 2.md",
-    "Math for AI/인공지능수학기초_9장_미분1.pdf",
-    "Math for AI/인공지능수학기초_6장_기초수학2.pdf",
-    "AI_deep_dive/GPS location error propagation.md",
-    "AI_deep_dive/Lecture 2.md",
-    "Infra/Key Distribution Problem.md",
-    "Infra/Kerberos.md",
-    "Infra/network/PMTUD(Path MTU Discovery).md",
-    "Infra/network/ARP 과정.md",
-    "temp/강연 1 AI 시대의 개발자는 뭘 해야할까?.md",
-    "temp",
-    "CS107e/course_reversing.md",
-    "CS107e",
-    "Math for CS/리만 적분.md",
-    "Infra/network/temp.md",
-    "ITIL/(ITIL) Axelos - ITIL Foundation 4 edition-Axelos (2019)[1].pdf",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "Infra/network/DDoS 공격 매커니즘 및 현대적인 방어기술",
-    "Infra/network/Ingress Filtering",
-    "Infra/network",
-    "assets/imgs/Pasted image 20251019155843.png",
-    "assets/imgs/sin_cos.png",
-    "assets/imgs/figure_1_40.png",
-    "Pasted image 20251019155843.png",
-    "CS/What every programmer should know about memory/WEPSKAM/Pasted image 20251025230810.png",
-    "assets/imgs/adjacent_line.png",
-    "assets/imgs/unit_circle_with_tangent_secant_line.png",
-    "assets/imgs/sigmoid.png",
-    "assets/imgs/temp.png"
+    "Kerberos/map.canvas",
+    "Principal.md",
+    "Kerberos/AS(Authentication Service).md",
+    "Kerberos/TGS(Ticket Granting Service).md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "network/Unicast Reverse Path Forwarding.md",
+    "Kerberos.md",
+    "Kerberos/Kerberos.md",
+    "TGT.md",
+    "KDC.md",
+    "Untitled.md",
+    "Kerberos/Kerberos의 인증절차.md",
+    "Kerberos/Symmetric encryption.md",
+    "Kerberos/Key Distribution Problem.md",
+    "Kerberos"
   ]
 }

@@ -4,7 +4,6 @@ aliases: []
 tags:
   - calculus
   - definite-integrals
-  - MIT-18.01
 title: Definite Integrals (Lecture 18)
 ---
 
